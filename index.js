@@ -1,5 +1,5 @@
 'use strict'
 
-module.exports = prettyJapaneseYen
+var prettyJapaneseYen = require('lib/pretty-japanese-yen')
 
-function prettyJapaneseYen(number) {}
+module.exports = prettyJapaneseYen
