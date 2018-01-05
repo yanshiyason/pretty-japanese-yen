@@ -4,11 +4,19 @@
   "description": "convert number to japanese yen string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
-  "keywords": [
-    "jpy"
-  ],
+  "keywords": ["jpy"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanshiyason/pretty-japanese-yen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yanshiyason/pretty-japanese-yen/issues"
+  },
   "author": "yanshiyason",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
 }
