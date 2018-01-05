@@ -1,0 +1,14 @@
+{
+  "name": "pretty-japanese-yen",
+  "version": "1.0.0",
+  "description": "convert number to japanese yen string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jpy"
+  ],
+  "author": "yanshiyason",
+  "license": "ISC"
+}
