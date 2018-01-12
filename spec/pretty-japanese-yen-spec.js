@@ -30,4 +30,19 @@ describe('prettyJapaneseYen', function() {
     expect(prettyJapaneseYen(100000000000)).toEqual('1000億円')
     expect(prettyJapaneseYen(1000000000000)).toEqual('10000億円')
   })
+
+  it('works for strings', function() {
+    expect(prettyJapaneseYen('0')).toEqual('0円')
+    expect(prettyJapaneseYen('500')).toEqual('500円')
+    expect(prettyJapaneseYen('999')).toEqual('999円')
+    expect(prettyJapaneseYen('100000000')).toEqual('1億円')
+    expect(prettyJapaneseYen('155000000')).toEqual('1.5億円')
+    expect(prettyJapaneseYen('9999999999')).toEqual('99.9億円')
+  })
+
+  it('works for negative numbers', function() {
+    expect(prettyJapaneseYen(-1)).toEqual('-1円')
+    expect(prettyJapaneseYen(-500)).toEqual('-500円')
+    expect(prettyJapaneseYen(-999)).toEqual('-999円')
+  })
 })
