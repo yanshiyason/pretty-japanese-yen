@@ -1,6 +1,6 @@
 {
   "name": "pretty-japanese-yen",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "convert number to japanese yen string",
   "main": "index.js",
   "scripts": {
